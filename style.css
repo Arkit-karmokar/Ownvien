@@ -1,0 +1,114 @@
+body {
+    background-color: hsl(185, 75%, 39%);
+    font-family: 'Kumbh Sans', sans-serif;
+}
+.cloud {
+    position: fixed;
+    bottom: 20%;
+    right: 50%;
+    z-index: -1;
+    
+}
+.pickgradient {
+    margin-left: -9.8rem;
+    margin-top: -6.3rem;
+    position: absolute;
+    width: 26rem;
+    z-index: -1;
+    border-radius: 1rem 1rem 0 0 ;
+    
+}
+#first {
+    margin-top: 10%;
+    margin-left: 37%;
+    text-align: center;
+    background:white;
+    height: 26rem;
+    width: 26rem;
+    border-radius: 1rem;
+    box-shadow: 0 32px 64px 0 rgba(0, 0, 0, 0.2), 0 32px 64px 0 rgba(0, 0, 0, 0.19);
+    z-index: 1;
+}
+p {
+    line-height: bottom 8rem;
+}
+.editor {
+position: fixed;
+bottom: 32%;
+left: 40%;
+transform: "rotate(45)";
+}
+.cloud2 {
+    position: fixed;
+    top:50%;
+    right: -19%;
+    z-index:-1;
+}
+.bhai {
+    line-height: 4rem;
+
+}
+.karab {
+    word-spacing: 5.8rem;
+    font-size: larger;
+} 
+.depaul {
+    display:inline-block;
+    font-weight: 4rem;
+}
+.down {
+    margin-bottom: 20rem;
+}
+.good {
+    word-spacing: 4.8rem;
+    line-height: 0;
+}
+@media (max-width:1000px) {
+    .editor{
+    bottom :38%;
+    left: 41.7%;
+    }
+}
+@media (max-width:400px){
+
+    .pickgradient{
+        margin-top: -1.5rem;
+        margin-left: -6.3rem;
+        position: absolute;
+        width: 18rem;
+    }
+    #first {
+        margin-top: 50%;
+        margin-left: 10%;
+        margin-right: 10%;
+        text-align: center;
+        background:white;
+        height: 20rem;
+        width: 18rem;
+        border-radius: 1rem;
+        box-shadow: 0 32px 64px 0 rgba(0, 0, 0, 0.2), 0 32px 64px 0 rgba(0, 0, 0, 0.19);
+        z-index: 1;
+    }
+    .editor{
+        font-size: small;
+    bottom: 40%;
+    left: 20%;
+    right: auto;
+    padding: auto;
+    }
+    
+    .bhai {
+        line-height: 3.5rem;
+    }
+    .karab {
+        word-spacing: 4rem;
+    }
+    .good {
+        word-spacing: 3rem;
+    }
+}
+@media(max-width:375px) {
+    .pickgradient{
+        margin-top: -4rem;
+    }
+}
